@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited { /* visitado */
+            color: gray;
+        }
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+        a:active { /* clicado */
+            color: yellow;
+        }
+
+        /*pseudo elemento */ 
+
+        a::after {
+            content: '<=';
+            text-decoration: none;
+            font-weight: normal;
+            color: red;
+        }
+        li {
+            margin: 15px;
+        }
+        a{  /* estilizando o box (ignora isso no conteudo)*/
+            border: 2px solid black;
+            padding: 5px;
+            outline: 2px solid red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/rafaelcl19?tab=repositories" target="_blank" type="exertal">Repositorio Github</a></li>
+        <li><a href="https://www.youtube.com/" target="_blank" type="external">Youtube</a></li>
+        <li><a href="https://steamcommunity.com/id/rafaelcl77/" target="_blank" type="external">Steam</a></li>
+    </ul>
+</body>
+</html>

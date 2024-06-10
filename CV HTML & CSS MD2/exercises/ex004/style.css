@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(170, 237, 170);
+    font-family: sans-serif;
+}
+
+h1 {
+    color: rgb(27, 135, 27);
+    background-color: white;
+}
+
+#principal { /* por id */
+   text-align: center;
+   background-color: green;
+   color: white; 
+}
+
+h2 {
+    color: rgb(12, 78, 12);
+}
+
+.basico {
+    color: red;
+    background-color: black;
+}
+.intermediario {
+    color: green;
+    background-color: black;
+}
+.avancado {
+    color: blue;
+    background-color: black;
+}
+
+.html-title {
+    color: orange;
+}
+.css-title {
+    color: blue;
+}

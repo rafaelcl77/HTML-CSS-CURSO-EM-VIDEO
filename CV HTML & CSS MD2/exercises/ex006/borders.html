@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando Estilos de Bordas</title>
+    <style>
+        div {
+            height: 300px;
+            width: 300px;
+        }
+        .solid {
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+        }
+        .dashed {
+            border-width: 10px;
+            border-style: dashed;
+            border-color: green;        
+        }
+        .dotted {
+            border-width: 10px;
+            border-style: dotted;
+            border-color: blue;
+        }
+        .double {
+            border-width: 10px;
+            border-style: double;
+            border-color: orange;
+        }
+        .groove {
+            border-width: 10px;
+            border-style: groove;
+            border-color: gray;
+        }
+
+
+        .personalizada {
+            border: 10px solid transparent;
+            border-image-source: url(minhaborda.png);
+            border-image-slice: 10;
+        }
+    </style>
+</head>
+<body>
+    <h1>Estilos de Bordas</h1>
+    <h2>Bordas Simples</h2>
+    <div class="solid"><h1>Solid</h1></div>
+    <div class="dashed"><h1>Dashed</h1></div>
+    <div class="dotted"><h1>Dotted</h1></div>
+    <div class="double"><h1>Double</h1></div>
+    <div class="groove"><h1>Groove</h1></div>
+    <hr>
+    <h2>Bordas Personalizadas</h2>
+    <div class="personalizada"></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</body>
+</html>
